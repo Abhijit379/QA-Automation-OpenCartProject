@@ -1,0 +1,9 @@
+15:14:56.703 [main] INFO  testCases.Login - ******Home Page******
+15:14:57.278 [main] DEBUG testCases.Login - Debug message
+15:14:57.439 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:14:57.441 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+15:14:57.444 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:14:57.810 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+15:15:00.730 [main] INFO  testCases.Registration - Test Started
+15:15:04.023 [main] ERROR testCases.Registration - Test Failed
+15:15:04.023 [main] DEBUG testCases.Registration - Test Debug logs

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="os" value="linux"/>
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="utilities.ExtendReportandListners"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="os" value="linux"/>
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testCases.Login">
+        <methods>
+          <include name="login"/>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Login -->
+      <class name="testCases.Registration">
+        <methods>
+          <include name="registration"/>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Registration -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="grouping">
+
+<groups>
+<run>
+<include name="Master"></include>
+
+</run>
+</groups>
+<listeners>
+
+<listener class-name="utilities.ExtendReportandListners"></listener>
+</listeners>
+<test name="TestGroup">
+<classes>
+
+<class name="testCases.Login"></class>
+<class name="testCases.Registration"></class>
+</classes>
+
+</test>
+
+
+</suite>
