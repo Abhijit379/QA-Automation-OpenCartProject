@@ -1,0 +1,10 @@
+13:52:09.008 [main] INFO  testCases.LoginDataProvider - ******Home Page******
+13:52:09.464 [main] DEBUG testCases.LoginDataProvider - Debug message
+13:52:20.009 [main] INFO  testCases.LoginDataProvider - ******Home Page******
+13:52:20.477 [main] DEBUG testCases.LoginDataProvider - Debug message
+13:52:31.119 [main] INFO  testCases.LoginDataProvider - ******Home Page******
+13:52:31.709 [main] DEBUG testCases.LoginDataProvider - Debug message
+13:52:42.249 [main] INFO  testCases.LoginDataProvider - ******Home Page******
+13:52:42.855 [main] DEBUG testCases.LoginDataProvider - Debug message
+13:52:44.524 [main] INFO  testCases.LoginDataProvider - ******Home Page******
+13:52:44.852 [main] DEBUG testCases.LoginDataProvider - Debug message

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-28T09:21:19Z" name="Suite" finished-at="2024-12-28T09:21:31Z" duration-ms="11924">
+    <groups>
+      <group name="Master">
+        <method signature="Login.login()[pri:0, instance:testCases.Login@26abb146]" name="login" class="testCases.Login"/>
+        <method signature="Registration.registration()[pri:0, instance:testCases.Registration@72c8e7b]" name="registration" class="testCases.Registration"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="Login.login()[pri:0, instance:testCases.Login@26abb146]" name="login" class="testCases.Login"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="Registration.registration()[pri:0, instance:testCases.Registration@72c8e7b]" name="registration" class="testCases.Registration"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-12-28T09:21:19Z" name="Test" finished-at="2024-12-28T09:21:31Z" duration-ms="11924">
+      <class name="testCases.Registration">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:testCases.Registration@72c8e7b]" started-at="2024-12-28T14:51:25Z" name="setup" finished-at="2024-12-28T14:51:28Z" duration-ms="3027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registration()[pri:0, instance:testCases.Registration@72c8e7b]" started-at="2024-12-28T14:51:28Z" name="registration" finished-at="2024-12-28T14:51:30Z" duration-ms="2277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:testCases.Registration@72c8e7b]" started-at="2024-12-28T14:51:30Z" name="exit" finished-at="2024-12-28T14:51:31Z" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testCases.Registration -->
+      <class name="testCases.Login">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:testCases.Login@26abb146]" started-at="2024-12-28T14:51:19Z" name="setup" finished-at="2024-12-28T14:51:23Z" duration-ms="4155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:testCases.Login@26abb146]" started-at="2024-12-28T14:51:23Z" name="login" finished-at="2024-12-28T14:51:25Z" duration-ms="1756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:testCases.Login@26abb146]" started-at="2024-12-28T14:51:25Z" name="exit" finished-at="2024-12-28T14:51:25Z" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testCases.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
